@@ -31,8 +31,7 @@ graph.add_node('B', 'C')
 graph.add_node('A', 'D')
 graph.add_node('C', 'D')
 graph.add_node('B', 'D')
-print(graph.adjacency_list)
-graph.print_paths('B', 'D')
+graph.print_paths('A', 'D')
 
 
 
